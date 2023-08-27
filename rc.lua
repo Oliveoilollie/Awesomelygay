@@ -218,7 +218,7 @@ awful.screen.connect_for_each_screen(function(s)
             mykeyboardlayout,
             wibox.widget.systray(),
             mytextclock,
-            --s.mylayoutbox,
+            s.mylayoutbox,
         },
     }
 end)
@@ -606,6 +606,7 @@ end)
 --Be the little slut and autostart for me
 --awful.spawn.with_shell(soundplayer .. startupSound)
 awful.util.spawn_with_shell("~/.config/awesome/autostart.sh")
+awful.util.spawn_with_shell("~/.config/awesome/awesome-conky/launch.sh")
 
 
 

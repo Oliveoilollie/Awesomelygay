@@ -40,3 +40,8 @@ keepassxc &
 
 #RGB BABY
 openrgb --startminimized --profile red.orp &
+
+#network applet lol
+#network-manager-applet
+
+nm-applet &
