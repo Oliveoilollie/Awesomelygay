@@ -1,6 +1,6 @@
 -------------------------------
---  "Zenburn" awesome theme  --
---    By Adrian C. (anrxc)   --
+--   Livs theme forked from the"Zenburn" awesome theme  --
+--    By Adrian C. (anrxc) & the fork by ofv liv lol  --
 -------------------------------
 
 local themes_path = require("gears.filesystem").get_themes_dir()
@@ -16,24 +16,24 @@ theme.wallpaper = themes_path .. "~/.config/awesome/themes/liv/mountains.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 9"
+theme.font      = "FontAwesome 10"
 
 -- {{{ Colors
 theme.fg_normal  = "#959595"
 theme.fg_focus   = "#444444"
-theme.fg_urgent  = "#444444"
-theme.bg_normal  = "#A9F5E6"
-theme.bg_focus   = "#F5A9B8"
-theme.bg_urgent  = "#F5A9B8"
+theme.fg_urgent  = "#F500BD"
+theme.bg_normal  = "#001d31"
+theme.bg_focus   = "#00A1D5"
+theme.bg_urgent  = "#2B0E66"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
 theme.useless_gap   = dpi(6)
 theme.border_width  = dpi(2)
-theme.border_normal = "#959595"
-theme.border_focus  = "#F5A9B8"
-theme.border_marked = "#A9F5E6"
+theme.border_normal = "#001D31"
+theme.border_focus  = "#00A1D5"
+theme.border_marked = "#2B0E66"
 -- }}}
 
 -- {{{ Titlebars
